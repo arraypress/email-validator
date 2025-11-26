@@ -1,0 +1,46 @@
+{
+  "name": "arraypress/email-validator",
+  "description": "A standalone PHP email validation function.",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/arraypress/email-validator",
+  "authors": [
+    {
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
+    }
+  ],
+  "keywords": [
+    "email",
+    "validation",
+    "polyfill"
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ArrayPress\\IsValidEmail\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/arraypress/email-validator/issues",
+    "source": "https://github.com/arraypress/email-validator"
+  }
+}
