@@ -36,9 +36,12 @@
     "test": "phpunit"
   },
   "config": {
-    "optimize-autoloader": true
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "preferred-install": "dist"
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "support": {
     "issues": "https://github.com/arraypress/email-validator/issues",
     "source": "https://github.com/arraypress/email-validator"
