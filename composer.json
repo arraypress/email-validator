@@ -17,7 +17,8 @@
     "polyfill"
   ],
   "require": {
-    "php": ">=8.0"
+    "php": ">=8.0",
+    "arraypress/email-validator": "dev-main"
   },
   "require-dev": {
     "phpunit/phpunit": "^10.0"
@@ -29,7 +30,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "ArrayPress\\IsValidEmail\\Tests\\": "tests/"
+      "ArrayPress\\EmailValidator\\Tests\\": "tests/"
     }
   },
   "scripts": {

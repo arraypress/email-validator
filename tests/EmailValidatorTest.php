@@ -165,4 +165,5 @@ class EmailValidatorTest extends TestCase {
 			);
 		}
 	}
+
 }
